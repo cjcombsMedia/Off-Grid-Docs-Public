@@ -3,6 +3,8 @@ This will be the repo where anyone in the world can pull a version of the Off-Gr
 
 NOTE!! - All PDF's, videos etc provided was sourced from the Internet. (OSINT). Not for resales, owners Rights Are Reserved.
 
+WIKI: https://github.com/cjcombsMedia/Off-Grid-Docs-Public/wiki/Off-Grid-Docs-WIKI
+
 But you can certainly buy me a coffee if you feel this was helpful! - https://buymeacoffee.com/elevateyourskills
 
 # Project Raptor - Off Grid Doc Management (DOCKER VERSION)

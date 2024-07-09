@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survival Files</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Survival Files</h1>
+            <button id="theme-toggle">Toggle Theme</button>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="survival.html">Survival</a></li>
+                <li><a href="automotive.html">Automotive</a></li>
+                <li><a href="fishing.html">Fishing</a></li>
+                <li><a href="misc.html">Misc</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Files</h2>
+                <ul id="file-list">
+                    <!-- Files will be listed here -->
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkMode = localStorage.getItem('darkMode');
+            if (darkMode === 'enabled') {
+                document.body.classList.add('dark-mode');
+            }
+            fetchFiles('survival');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misc - Project Raptor</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Misc</h1>
+            <input type="text" id="search-input" placeholder="Search files...">
+            <button onclick="searchFiles()">Search</button>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="survival.html">Survival</a></li>
+                <li><a href="automotive.html">Automotive</a></li>
+                <li><a href="fishing.html">Fishing</a></li>
+                <li><a href="misc.html">Misc</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Misc Files</h2>
+                <ul id="file-list">
+                    <!-- Misc files will be listed here -->
+                </ul>
+            </section>
+            <section id="search-results" style="display:none;">
+                <h2>Search Results</h2>
+                <ul id="search-list">
+                    <!-- Search results will be listed here -->
+                </ul>
+            </section>
+        </main>
+        <button id="theme-toggle">Toggle Theme</button>
+    </div>
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkMode = localStorage.getItem('darkMode');
+            if (darkMode === 'enabled') {
+                document.body.classList.add('dark-mode');
+            }
+            fetchFiles('misc');
+        });
+    </script>
+</body>
+</html>

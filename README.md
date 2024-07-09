@@ -1,6 +1,8 @@
 # Off-Grid-Docs-OFFICIAL
 This will be the repo where anyone in the world can pull a version of the Off-Grid-Docs web app and use it to have all of your favorite documents, videos, text files etc and will work on ANY device using Docker, develop it to their needs. See more in the README file.
 
+NOTE!! - All PDF's, videos etc provided was sourced from the Internet. (OSINT). Not for resales, owners Rights Are Reserved.
+
 # Project Raptor - Off Grid Doc Management (DOCKER VERSION)
 <p align="center">
   <img src="https://publichtmlimg.blob.core.windows.net/$web/off-grid-docs.jpg" alt="" width="100%" height="90%">
@@ -15,7 +17,11 @@ This project is an off grid documentation/video/text management app built with H
 - Docker
 - Docker Compose
 
-LAMP (Linux) Web Version Info here soon:
+LAMP (Linux) Web Version Info:
+The Linux Standalone version (Works on Raspberry PI's, NVIDIA Jetsons, Linux Mint, etc.) is in the "LAMP Version - NON-Docker" folder.
+Some modification MIGHT be needed once you load into your standard LAMP setup.
+There is NO Hybrid Database yet.
+To test, check code, run locally with no Internet.
 
 =======================================
 ## Steps to Deploy the Application Using Docker

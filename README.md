@@ -16,3 +16,23 @@ This project is an off grid documentation/video/text management app built with H
 - Docker Compose
 
 LAMP (Linux) Web Version Info here soon:
+
+=======================================
+## Steps to Deploy the Application Using Docker
+Ensure Docker and Docker Compose are Installed:
+Make sure that Docker and Docker Compose are installed on the user's machine. Users can download and install Docker from Docker's official website.
+https://www.docker.com/
+
+Create Necessary Files:
+Ensure that the provided Dockerfile and docker-compose.yaml are placed in the root directory of your project.
+
+Run the Docker Compose Command:
+Users can deploy the application by navigating to the root directory of your project and running the following command:
+
+```language
+// docker-compose up --build
+
+This command will:
+
+Build the Docker image from the Dockerfile.
+Start the Docker container and map port 80 of the container to port 8081 on the host machine.

@@ -29,8 +29,8 @@ Ensure that the provided Dockerfile and docker-compose.yaml are placed in the ro
 Run the Docker Compose Command:
 Users can deploy the application by navigating to the root directory of your project and running the following command:
 
-```language
-// docker-compose up --build
+'docker-compose up --build'
+
 
 This command will:
 

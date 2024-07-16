@@ -46,3 +46,9 @@ This command will:
 
 Build the Docker image from the Dockerfile.
 Start the Docker container and map port 80 of the container to port 8081 on the host machine.
+
+## Steps to Deploy the Application Locally (LAMP Web Server - Linux Based)
+TBD
+
+## Steps to Deploy the Application Locally (Windows Web Server - Windows Based)
+TBD
